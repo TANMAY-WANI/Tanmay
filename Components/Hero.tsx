@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/text-generate-effect'
 import MagicButton from './ui/MagicButton'
 import { FaLocationArrow } from 'react-icons/fa'
+import { redirect } from 'next/dist/server/api-utils'
 
 const Hero = () => {
   return (
@@ -35,7 +36,7 @@ const Hero = () => {
           Hi, I&apos;m Tanmay, a MERN+Next.JS developer based in India
           </p>
 
-          <a href="#about">
+          <a href="https://github.com/TANMAY-WANI" target='_blank'>
             <MagicButton
             title = "Show my work"
             icon =  {<FaLocationArrow/>}
