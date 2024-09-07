@@ -56,7 +56,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["Next.JS", "React.JS", "GraphQL"];
+  const rightLists = ["NextJS", "MongoDB", "NodeJS"];
 
   const [copied, setCopied] = useState(false);
 
@@ -134,7 +134,7 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
-          {id === 2 && <GridGlobe />}
+          {/* {id === 2 && <GridGlobe />} */}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">

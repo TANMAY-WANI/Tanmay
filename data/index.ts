@@ -75,7 +75,7 @@ export const navItems = [
       title: "NexCapital - Real-world banking interface",
       des: "Easily link bank accounts and make secure payments with a Next.js and Tailwind CSS app, powered by Plaid and Dwolla.",
       img: "/p1.png",
-      iconLists: ["/next.svg","/tail.svg", "/ts.svg", "/appwrite.svg", "/Dwolla.svg"],
+      iconLists: ["/next.svg","/tail.svg", "/ts.svg", "/appwrite.svg", "/dwolla.svg"],
       link: "https://nex-capital-tt6h.vercel.app/",
       showLink:"/nex-capital.com"
     },
